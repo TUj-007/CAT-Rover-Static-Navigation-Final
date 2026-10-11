@@ -1,0 +1,29 @@
+{
+  "scenario": "dropout",
+  "survey": {
+    "status": "partial",
+    "reason": "Sensor startup/recovery timeout; no usable fresh scan/telemetry",
+    "stations_reached": 0,
+    "coverage": {
+      "observed_m2": 16.290000000000003,
+      "free_m2": 15.355000000000002,
+      "unknown_m2": 19.792500000000004,
+      "frontier_cells": 72,
+      "unreachable_frontier_regions": 0,
+      "unresolved_failures": 0,
+      "clipped_rays": 0,
+      "survey_bounds": [
+        -2.9,
+        2.9,
+        -2.9,
+        2.9
+      ]
+    }
+  },
+  "survey_travel_m": 0.0,
+  "ground_truth_interior_observed_fraction": 0.8871148459383753,
+  "nonzero_survey_commands": 13,
+  "survey_simulated_seconds": 4.799999999999991,
+  "collisions": 0,
+  "final_command_zero": true
+}

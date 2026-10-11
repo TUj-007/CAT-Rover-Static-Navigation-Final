@@ -1,0 +1,51 @@
+test_bounded_finite_pulse (test_bench.Bench.test_bounded_finite_pulse) ... ok
+test_invalid_route_and_missing_confirmation_never_open_hardware (test_cli.CLI.test_invalid_route_and_missing_confirmation_never_open_hardware) ... ok
+test_config_rejects_unsafe_types_and_bounds (test_config_protocol.Contracts.test_config_rejects_unsafe_types_and_bounds) ... ok
+test_coordinate_conventions (test_config_protocol.Contracts.test_coordinate_conventions) ... ok
+test_crc_and_bounds (test_config_protocol.Contracts.test_crc_and_bounds) ... ok
+test_coverage_and_true_close_obstacles (test_devices.Sensors.test_coverage_and_true_close_obstacles) ... ok
+test_encoder_jump_rejected (test_devices.Sensors.test_encoder_jump_rejected) ... ok
+test_mask_does_not_create_free_rays (test_devices.Sensors.test_mask_does_not_create_free_rays) ... ok
+test_recovery_invalidates_cached_scan (test_devices.Sensors.test_recovery_invalidates_cached_scan) ... ok
+test_signed_counts_duplicates_reset_and_history (test_devices.Sensors.test_signed_counts_duplicates_reset_and_history) ... ok
+test_all_candidate_regions_examined_and_exhaustion_partial (test_exploration.Exploration.test_all_candidate_regions_examined_and_exhaustion_partial) ... ok
+test_complete_and_failed_are_distinct (test_exploration.Exploration.test_complete_and_failed_are_distinct) ... ok
+test_frontier_observation_target_is_known_and_clear (test_exploration.Exploration.test_frontier_observation_target_is_known_and_clear) ... ok
+test_large_ring_uses_actual_frontier_not_group_centroid (test_exploration.Exploration.test_large_ring_uses_actual_frontier_not_group_centroid) ... ok
+test_partial_when_survey_exceeds_map (test_exploration.Exploration.test_partial_when_survey_exceeds_map) ... ok
+test_uncertain_observed_wall_is_not_unexplored_space (test_exploration.Exploration.test_uncertain_observed_wall_is_not_unexplored_space) ... ok
+test_atomic_roundtrip_identity_and_bad_version (test_grid_storage.Mapping.test_atomic_roundtrip_identity_and_bad_version) ... ok
+test_changed_evidence_and_nonfinite_metadata_rejected (test_grid_storage.Mapping.test_changed_evidence_and_nonfinite_metadata_rejected) ... ok
+test_noise_can_be_cleared_and_outside_reported (test_grid_storage.Mapping.test_noise_can_be_cleared_and_outside_reported) ... ok
+test_observed_free_and_hit_but_unknown_outside (test_grid_storage.Mapping.test_observed_free_and_hit_but_unknown_outside) ... ok
+test_self_footprint_does_not_clear_a_safety_bubble (test_grid_storage.Mapping.test_self_footprint_does_not_clear_a_safety_bubble) ... ok
+test_bad_pose_and_low_overlap_rejected (test_localization.Localization.test_bad_pose_and_low_overlap_rejected) ... ok
+test_corrects_translation_yaw_from_real_geometry (test_localization.Localization.test_corrects_translation_yaw_from_real_geometry) ... ok
+test_corridor_and_circle_degeneracy_rejected (test_localization.Localization.test_corridor_and_circle_degeneracy_rejected) ... ok
+test_localizer_does_not_mutate_map (test_localization.Localization.test_localizer_does_not_mutate_map) ... ok
+test_mapper_rejects_bad_scan_without_painting (test_localization.Localization.test_mapper_rejects_bad_scan_without_painting) ... ok
+test_pose_graph_rebuild_reduces_constraint_error_and_rejects_false_loop (test_localization.Localization.test_pose_graph_rebuild_reduces_constraint_error_and_rejects_false_loop) ... ok
+test_repeated_stationary_scans_do_not_walk_the_map_by_cell_centres (test_localization.Localization.test_repeated_stationary_scans_do_not_walk_the_map_by_cell_centres) ... ok
+test_full_measured_braking_travel_and_acquisition_pose (test_planning.Planning.test_full_measured_braking_travel_and_acquisition_pose) ... ok
+test_live_obstacle_and_measured_braking_veto (test_planning.Planning.test_live_obstacle_and_measured_braking_veto) ... ok
+test_narrow_straight_clear_but_pivot_blocked (test_planning.Planning.test_narrow_straight_clear_but_pivot_blocked) ... ok
+test_static_detour_and_unknown_block (test_planning.Planning.test_static_detour_and_unknown_block) ... ok
+test_tracker_turn_sign_and_limits (test_planning.Planning.test_tracker_turn_sign_and_limits) ... ok
+test_turn_command_includes_residual_forward_motion (test_planning.Planning.test_turn_command_includes_residual_forward_motion) ... ok
+test_empty_route_and_unbounded_dwell_rejected (test_routes.Routes.test_empty_route_and_unbounded_dwell_rejected) ... ok
+test_invalid_identity_numbers_and_blocked_pose_rejected (test_routes.Routes.test_invalid_identity_numbers_and_blocked_pose_rejected) ... ok
+test_ordered_route_accepted (test_routes.Routes.test_ordered_route_accepted) ... ok
+test_alignment_and_planning_failures_have_deadlines (test_runtime.Guarding.test_alignment_and_planning_failures_have_deadlines) ... ok
+test_expensive_collision_check_cannot_send_a_stale_command (test_runtime.Guarding.test_expensive_collision_check_cannot_send_a_stale_command) ... ok
+test_guard_rejects_expired_data_and_requires_zero (test_runtime.Guarding.test_guard_rejects_expired_data_and_requires_zero) ... ok
+test_identity_mismatch_prohibits_motion (test_runtime.Guarding.test_identity_mismatch_prohibits_motion) ... ok
+test_timeout_with_missing_scans_saves_partial_and_zero (test_runtime.Guarding.test_timeout_with_missing_scans_saves_partial_and_zero) ... ok
+test_ambiguous_geometry_never_moves (test_simulation.Simulation.test_ambiguous_geometry_never_moves) ... ok
+test_dropout_stops_and_saves_partial (test_simulation.Simulation.test_dropout_stops_and_saves_partial) ... ok
+test_first_run_map_and_saved_map_ordered_navigation (test_simulation.Simulation.test_first_run_map_and_saved_map_ordered_navigation) ... ok
+test_obstacle_added_after_mapping_detoured_without_map_change (test_simulation.Simulation.test_obstacle_added_after_mapping_detoured_without_map_change) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 33.855s
+
+OK

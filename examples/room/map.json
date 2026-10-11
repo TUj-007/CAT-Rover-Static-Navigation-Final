@@ -1,0 +1,13 @@
+{
+  "identity": "c79bc0fe0a4fccd9f36e6c47e6a0ecc85e4bc4781d27782caee96f02702d23f0",
+  "resolution": 0.05,
+  "origin": [
+    -3.0,
+    -3.0,
+    0
+  ],
+  "width": 120,
+  "height": 120,
+  "image": "map.pgm",
+  "frame": "x-forward y-left yaw-CCW"
+}

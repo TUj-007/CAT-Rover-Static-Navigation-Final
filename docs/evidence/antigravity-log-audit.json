@@ -1,0 +1,14 @@
+{
+  "rows": 382,
+  "states": {
+    "AUTO_ZERO_HANDSHAKE": 11,
+    "MONITOR": 92,
+    "BLOCKED": 143,
+    "NO_PATH": 123,
+    "FOLLOW": 13
+  },
+  "nonzero_encoder_rows": 71,
+  "nonzero_command_rows": 13,
+  "raw_scans_available": false,
+  "limitation": "Telemetry audit only: no raw LiDAR beams; original mapping accuracy cannot be replayed"
+}

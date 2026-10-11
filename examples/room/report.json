@@ -1,0 +1,39 @@
+{
+  "scenario": "room",
+  "survey": {
+    "status": "complete",
+    "reason": "No remaining reachable observation frontier; inaccessible/unknown space reported separately",
+    "stations_reached": 0,
+    "coverage": {
+      "observed_m2": 18.382500000000004,
+      "free_m2": 17.595000000000002,
+      "unknown_m2": 17.617500000000003,
+      "frontier_cells": 24,
+      "unreachable_frontier_regions": 0,
+      "unresolved_failures": 0,
+      "clipped_rays": 0,
+      "survey_bounds": [
+        -2.9,
+        2.9,
+        -2.9,
+        2.9
+      ]
+    }
+  },
+  "survey_travel_m": 0.0,
+  "ground_truth_interior_observed_fraction": 1.0,
+  "nonzero_survey_commands": 0,
+  "survey_simulated_seconds": 0.05,
+  "collisions": 0,
+  "final_command_zero": true,
+  "navigation": {
+    "status": "complete",
+    "reason": "All ordered waypoints reached",
+    "stations_reached": 3,
+    "coverage": {}
+  },
+  "navigation_simulated_seconds": 34.95000000000015,
+  "end_error_m": 0.09792358716538177,
+  "end_heading_error_rad": 0.11755949476689677,
+  "static_map_unchanged": true
+}

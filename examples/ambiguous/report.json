@@ -1,0 +1,29 @@
+{
+  "scenario": "ambiguous",
+  "survey": {
+    "status": "partial",
+    "reason": "Localization lost: Competing pose hypotheses",
+    "stations_reached": 0,
+    "coverage": {
+      "observed_m2": 0.0,
+      "free_m2": 0.0,
+      "unknown_m2": 36.00000000000001,
+      "frontier_cells": 0,
+      "unreachable_frontier_regions": 0,
+      "unresolved_failures": 0,
+      "clipped_rays": 0,
+      "survey_bounds": [
+        -2.9,
+        2.9,
+        -2.9,
+        2.9
+      ]
+    }
+  },
+  "survey_travel_m": 0.0,
+  "ground_truth_interior_observed_fraction": 0.0,
+  "nonzero_survey_commands": 0,
+  "survey_simulated_seconds": 4.199999999999993,
+  "collisions": 0,
+  "final_command_zero": true
+}

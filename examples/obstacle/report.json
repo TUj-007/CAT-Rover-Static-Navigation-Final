@@ -1,0 +1,39 @@
+{
+  "scenario": "obstacle",
+  "survey": {
+    "status": "complete",
+    "reason": "No remaining reachable observation frontier; inaccessible/unknown space reported separately",
+    "stations_reached": 0,
+    "coverage": {
+      "observed_m2": 18.770000000000003,
+      "free_m2": 17.395000000000003,
+      "unknown_m2": 17.255000000000003,
+      "frontier_cells": 4,
+      "unreachable_frontier_regions": 0,
+      "unresolved_failures": 0,
+      "clipped_rays": 0,
+      "survey_bounds": [
+        -2.9,
+        2.9,
+        -2.9,
+        2.9
+      ]
+    }
+  },
+  "survey_travel_m": 2.31340120441164,
+  "ground_truth_interior_observed_fraction": 1.0,
+  "nonzero_survey_commands": 1201,
+  "survey_simulated_seconds": 71.94999999999806,
+  "collisions": 0,
+  "final_command_zero": true,
+  "navigation": {
+    "status": "complete",
+    "reason": "All ordered waypoints reached",
+    "stations_reached": 3,
+    "coverage": {}
+  },
+  "navigation_simulated_seconds": 45.19999999999957,
+  "end_error_m": 0.0965609554304165,
+  "end_heading_error_rad": 0.0007576611602486911,
+  "static_map_unchanged": true
+}
